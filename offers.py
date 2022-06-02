@@ -30,7 +30,7 @@ async def flats_keyboard(name: str, data: dict):
 
 
 async def offers(message: Message, **kwargs):
-    """Предлагаем квартиры на выбор."""
+    """Предлагаем на выбор."""
     data = {'Phone': 'Apple', 'Colour': 'Grey'}
     name = 'Some name'
     markup = await flats_keyboard(name, data)
